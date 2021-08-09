@@ -207,6 +207,8 @@ public class XPathParser {
     return xnodes;
   }
 
+  // -XPathParser#evalNode(xpath语法):XPath解析器，专门用来通过Xpath语法解析
+  // XML返回XNode节点
   public XNode evalNode(String expression) {
     return evalNode(document, expression);
   }
